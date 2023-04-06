@@ -4,8 +4,9 @@ This is the source code repository for the project accompanying the paper "How W
 ## Abstract
 The Metropolis algorithm (MA) is a classic stochastic local search heuristic. It avoids getting stuck in local optima by occasionally accepting inferior solutions. To better and in a rigorous manner understand this ability, we conduct a mathematical runtime analysis of the MA on the CLIFF benchmark. Apart from one local optimum, cliff functions are monotonically increasing towards the global optimum. Consequently, to optimize a cliff function, the MA only once needs to accept an inferior solution. Despite seemingly being an ideal benchmark for the MA to profit from its main working principle, our mathematical runtime analysis shows that this hope does not come true. Even with the optimal temperature (the only parameter of the MA), the MA optimizes most cliff functions less efficiently than simple elitist evolutionary algorithms (EAs), which can only leave the local optimum by generating a superior solution possibly far away. This result suggests that our understanding of why the MA is often very successful in practice is not yet complete. Our work also suggests to equip the MA with global mutation operators, an idea supported by our preliminary experiments.
 
-## Citation (WIP)
+## Citation
 If you use this code or project in your research, please cite the accompanying paper:
+```
 @inproceedings{doerr2023metropolis,
   title={How Well Does the Metropolis Algorithm Cope With Local Optima?},
   author={Doerr, Benjamin and El Ghazi El Houssaini, Taha and Rajabi, Amirhossein and Witt, Carsten},
@@ -13,9 +14,6 @@ If you use this code or project in your research, please cite the accompanying p
   year={2023},
   organization={ACM}
 }
-
-## License
-This project is licensed under the MIT License.
-
+```
 
 
