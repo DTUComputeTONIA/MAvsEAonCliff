@@ -24,7 +24,7 @@ If you use this code or project in your research, please cite the accompanying p
 @inproceedings{doerr2023metropolis,
   title={How Well Does the Metropolis Algorithm Cope With Local Optima?},
   author={Doerr, Benjamin and El Ghazi El Houssaini, Taha and Rajabi, Amirhossein and Witt, Carsten},
-  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference (GECCO '23)},
   year={2023},
   organization={ACM}
 }
